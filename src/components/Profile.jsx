@@ -5,9 +5,9 @@ return (
     <img
       src={props.avatar}
       alt="User avatar"
-      class="avatar"
+      
     />
-    <p class="name">{props.name}</p>
+    <p class="name">{props.username}</p>
     <p class="tag">{props.tag}</p>
     <p class="location">{props.location}</p>
   </div>
